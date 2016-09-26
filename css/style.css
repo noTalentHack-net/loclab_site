@@ -211,8 +211,10 @@ p{
 	padding: 0; 
 	margin: 0;
 }
+
+/*This is the word locus*/
 .menu .navbar-brand{
-	color: #000;
+	color: #15361d;
 	font-size: 29px;
 	padding: 0; 
 	margin: 0 !important;
@@ -221,11 +223,15 @@ p{
 	font-weight: bold;
 	letter-spacing: 1px;
 }
+
+/*this is the word lab*/
 .menu .navbar-brand span{
-	color: #2796de;
+	color: #9fcf6e;
 }
+
+/*This is the sky symbol*/
 .menu .navbar-brand .fa{
-	color: #2796de;
+	color: #9fcf6e;
 	font-size: 27px;
 	margin-right: 6px;
 }
@@ -249,12 +255,12 @@ p{
 .menu .navbar-nav > li.active > a:hover,
 .menu .navbar-nav > li > a:hover {
 	color: #fff;
-	background-color: #2796de;
+	background-color: #9fcf6e;
 }
 
 .menu .navbar-nav > li.active > a {
 	color: #fff;
-	background-color: #2796de;
+	background-color: #9fcf6e;
 }
 
 .menu .navbar-nav > li.active > a:focus,
