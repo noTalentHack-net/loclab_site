@@ -126,6 +126,11 @@
 	color: #777;
 }
 
+#floorPlanTable {
+	width: 100%;
+	border-spacing: 10px;
+}
+
 /* EMEMENTS */
 .btn-source{
 	display: none;

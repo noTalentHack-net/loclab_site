@@ -1639,10 +1639,12 @@ p{
 }
 
 .contact-form .btn{
-	color: #fff; 
+	/*color: #fff;*/
+	color: #15361d; 
 	border-radius: 3px; 
 	box-shadow: none; 
-	background-color: #2796de;
+	/*background-color: #2796de;*/
+	background-color: #9fcf6e;
 	border-color: transparent; 
 	font-weight: bold; 
 	font-size: 16px; 
@@ -1653,7 +1655,9 @@ p{
 }
 
 .contact-form .btn:hover{
-	background-color: #286090;
+	/*background-color: #286090;*/
+	background-color: #15361d;
+	color: #9fcf6e;
 }
 
 .hotlink .well,
