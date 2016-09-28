@@ -149,7 +149,7 @@ p{
 }
 
 .header-social-links .s-link{
-	color: #999;
+	color: #15361d;
 	min-width: 28px; 
 	min-height: 28px; 
 	border-radius: 2px; 
@@ -162,7 +162,7 @@ p{
 
 .header-social-links .fa.s-link:hover{
 	color: #fff;
-	background-color: #2796de;
+	background-color: #9fcf6e;
 }
 
 .language{
@@ -587,14 +587,14 @@ p{
 
 /* PORTON DESIGN */
 .porton-design {
-	background-color: #222222;
+	background-color: #ffffff;
 	color: #fff;
 	overflow: hidden;
 	position: relative;
 }
 
 .porton-design .fullwidth-image {
-	background: rgba(0, 0, 0, 0) url("../images/video-img.jpg") no-repeat scroll center center / cover ;
+	background: rgba(0, 0, 0, 0) url("../images/LocusLabsLogoMasterTransparentHexOnly.png") no-repeat scroll center center / cover ;
 	bottom: 0;
 	left: 0;
 	min-height: 530px;
