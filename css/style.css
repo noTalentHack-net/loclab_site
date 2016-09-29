@@ -1526,7 +1526,7 @@ p{
 }
 
 .top-footer .social-link .fa{
-	background-color: #363636;
+	background-color: #15361d;
 	height: 28px;
 	width: 28px;
 	padding-top: 8px;
@@ -1538,7 +1538,7 @@ p{
 
 .top-footer .social-link .fa:hover{
 	color: #fff;
-	background-color: #2b8ecf;
+	background-color: #9fcf6e;
 }
 
 .top-footer .list-inline > li{
