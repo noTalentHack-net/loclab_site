@@ -1,14 +1,23 @@
 /* google font*/
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px|Gudea|Alegreya+Sans);
+@font-face {
+	font-family:'CooperHewitt-Bold';
+	src: url("../fonts/CooperHewitt-Bold.otf");
+}
+
+@font-face {
+	font-family:'CooperHewitt-Book';
+	src: url("../fonts/CooperHewitt-Book.otf");
+}
 
 body{
 	overflow-x: hidden;
-	font-family: 'Gudea', sans-serif;
+	font-family: 'CooperHewitt-Book';
 	font-size: 15px;
 	color: #333333;
 }
 h1, h2, h3, h4, h5{
-	font-family: 'Slabo 27px', serif;
+	font-family: 'CooperHewitt-Book';
 
 	color: #333333;
 }
@@ -218,7 +227,7 @@ p{
 	font-size: 29px;
 	padding: 0; 
 	margin: 0 !important;
-	font-family: 'Slabo 27px', serif;
+	font-family: 'CooperHewitt-Bold';
 	margin-left: 10px;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -249,7 +258,7 @@ p{
 	padding: 5px 15px;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	font-family: 'Slabo 27px', serif;
+	font-family: 'CooperHewitt-Book';
 }
 
 .menu .navbar-nav > li.active > a:hover,
@@ -507,7 +516,7 @@ p{
 	font-size: 21px;
 	color: #999;
 	margin-bottom: 30px;
-	font-family: 'Alegreya Sans', serif;
+	font-family: 'CooperHewitt-Book';
 	line-height: 1.3;
 }
 
@@ -617,9 +626,10 @@ p{
 }
 
 .media-content h1{
-	font-size: 22px;
+	font-size: 35px;
 	margin-bottom: 20px;
 	line-height: 1.5;
+	font-family: 'CooperHewitt-Bold';
 
 }
 .porton-design .media-content h5,
@@ -632,12 +642,19 @@ p{
 	margin-bottom: 30px;
 }
 
+.media-content p{
+	color: #004600;
+	font-size: 20px;
+	font-family: 'CooperHewitt-Book'
+}
+
 .media-left{
 	padding-right: 15px;
 }
 
 .media-heading {
 	font-weight: bold;
+	font-family: 'CooperHewitt-Book';
 	letter-spacing: 0.5px;
 	margin-bottom: 15px;
 	margin-top: 0;
@@ -645,8 +662,14 @@ p{
 	word-spacing: 2px;
 }
 
+.media-body h5{
+	font-size: 25px;
+	font-family: 'CooperHewitt-Bold';
+}
+
 .media-body p{
 	color: #004600;
+	font-family: 'CooperHewitt-Book';
 }
 
 .modal-content{
@@ -1106,6 +1129,7 @@ p{
 	letter-spacing: 0.5px; 
 	word-spacing: 2px;
 	margin-bottom: 30px;
+	font-family: 'CooperHewitt-Bold';
 }
 
 .supporter span{
@@ -1113,7 +1137,6 @@ p{
 	color: #ffffff; 
 	font-weight: normal;
 	letter-spacing: 0.6px;
-	font-style: italic;
 	
 }
 
@@ -1123,6 +1146,7 @@ p{
 	letter-spacing: 0.7px;
 	line-height: 2;
 	word-spacing: 1.5px;
+	font-family: 'CooperHewitt-Book';
 }
 
 .supporter .carousel-indicators {
