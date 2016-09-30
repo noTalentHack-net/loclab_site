@@ -1452,18 +1452,18 @@ p{
 .top-footer h1{
 	color: #fff;
 	text-transform: uppercase; 
-	font-size: 23px; 
+	font-size: 30px; 
 	margin-bottom: 25px;
 }
 
 .top-footer h1 .fa{
-	font-size: 35px;
+	font-size: 10px;
 	color: #2b8ecf;
 }
 
 .top-footer p{
 	color: #999;
-	margin-bottom: 0;
+	margin-bottom: 25px;
 }
 
 .top-footer .media {
@@ -1516,16 +1516,17 @@ p{
 .top-footer .media-body h5{
 	color: #fff;
 	word-spacing: 0;
-	letter-spacing: 0;
-	font-size: 13px;
+	letter-spacing: px;
+	font-size: 15px;
 }
 
 .top-footer h4{
 	color: #fff; 
-	font-size: 14px; 
+	font-size: 30px; 
 	font-weight: bold;
 	margin-bottom: 25px; 
-	line-height: 2.5; 
+	/*line-height: 2.5; */
+	font-family: 'CooperHewitt-Book';
 	text-transform: uppercase;
 }
 
