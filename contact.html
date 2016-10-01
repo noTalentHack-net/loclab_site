@@ -7,6 +7,20 @@
 		<link href="css/font-awesome.min.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
+
+		<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script--> 
+    	<script src="http://malsup.github.com/jquery.form.js"></script> 
+ 
+		<script> 
+			// wait for the DOM to be loaded 
+			$(document).ready(function() { 
+				// bind 'myForm' and provide a simple callback function 
+				$('#locusForm').ajaxForm(function() { 
+					alert("Thank you for your comment!"); 
+				}); 
+			}); 
+		</script>
+
     </head>
     
     <body>
@@ -178,22 +192,22 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mi nisi, viverra nec ultricies non, ornare quis purus.</p>
 							-->
 							<br><br>
-							<form action="mailto:info@locuslabs.org" method="GET">
+							<form id="locusForm" action="mailer.php" method="POST">
 								<div class="form-group">
 									<label class="sr-only" for="exampleInputEmail1">Your Name</label>
-									<input type="text" class="form-control input-lg" id="formName" placeholder="Your Name">
+									<input name="name" type="text" class="form-control input-lg" id="formName" placeholder="Your Name">
 								</div>
 								
 								<div class="form-group">
 									<label class="sr-only" for="exampleInputEmail1">Your Email</label>
-									<input type="email" class="form-control input-lg" id="exampleInputEmail1" placeholder="Your Email">
+									<input name="email" type="text" class="form-control input-lg" id="exampleInputEmail1" placeholder="Your Email">
 								</div>
 								
 								<div class="form-group">
 									<label class="sr-only" for="exampleInputEmail1">Your Message</label>
-									<textarea class="form-control input-lg" rows="4" placeholder="Your Message"></textarea>
+									<textarea class="form-control input-lg" name="message" rows="4" placeholder="Your Message"></textarea>
 								</div>
-								<button type="submit" class="btn btn-primary btn-block">Send Message</button>
+								<button name="submit" type="submit" class="btn btn-primary btn-block">Send Message</button>
 							</form>
 						</div>
 					</div>

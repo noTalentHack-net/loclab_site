@@ -8,6 +8,7 @@
 		<link href="css/style.css" rel="stylesheet">
 		<link href="css/blog-single.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
+		<link href="css/lightbox.css" rel="stylesheet">
     </head>
     
     <body>
@@ -210,26 +211,31 @@
 										</p>
 									</div>
 									</center>
-								<div class="carousel-caption">
+								<!--<div class="carousel-caption">
 
-								</div>
+								</div>-->
 								</div>
 
 								<div class="item">
 								<center>
-								<img src="images/floorplan_11x8.png" />
-								<div class="carousel-caption">
+								<a class="lightbox" href="#floorplanWhite">
+									<img src="images/floorplanWhite.png" />
+								</a>
 
-								</div>
+								<!--<div class="carousel-caption">
+
+								</div>-->
 								</center>
 								</div>
 
 								<div class="item">
 								<center>
-								<img src="images/LocusLabsSchematic.jpg" />
-								<div class="carousel-caption">
+								<a class="lightbox" href="#floorplanBlack">
+									<img src="images/LocusLabsSchematic.jpg" />
+								</a>
+								<!--<div class="carousel-caption">
 
-								</div>
+								</div>-->
 								</center>
 								</div>
 
@@ -248,9 +254,11 @@
 							
 							<br>
 
-							<p>Wordpress apeirian assentior ei, utquo eros posse verterem. Cum eu error congue saperet. Te eam exerci vulputate consetetur, causae consulatu eaper. Partem graecis iracundia nec. Assueverit consequuntur mei, eos cu mutat percipitur.No quandoiudicabit usu, est in melius dolorum scriptorem. Summo gubergren te mei, eam torquatos abhorreant ne.Pri meis illud nobis ut legere tempor eripuit te sed. Verterem phaedrum consectetuer et quo. Omniumdisputation. apeirian assentior ei, utquo eros posse verterem. Cum eu error congue saperet. Te eam exerci vulputate consetetur, causae consulatu eaper.</p>
-							<blockquote><p style="font-size: 15px; color: #999; letter-spacing: 0.5px;word-spacing: 1px;">Web design graecis iracundia nec. Assueverit consequuntur mei, eos cu mutat percipitur.No quandoiudicabit usu, est in melius dolorum scriptorem. Summo gubergren te mei, eam torquatos abhorreant ne.Pri meis illud nobis ut legere tempor eripuit te sed. Verterem phaedrum consectetuer et quo. Omniumdisputation graecis iracundia nec. Assueverit consequuntur mei, eos cu mutat percipitur.No quandoiudicabit usu, est in melius dolorum scriptorem. Summo gubergren.</p>
-							</blockquote>	
+							<h2>Locus Labs is an open, affordable community tech space. We put the tools of tomorrow into the hands of everyday people who have the vision to create and the 
+								burning desire to build.<br><br>
+								Together, we create solutions today that shape the world of tomorrow.
+							</h2>
+							<br><br>
 							
 							<!--
 							<h2>Bootstrap eros posse verterem error congu</h2>
@@ -261,6 +269,7 @@
 							
 							<p>Partem graecis iracundia nec. Assueverit consequuntur mei, eos cu mutat percipitur.No quandoiudicabit usu, est in melius dolorum scriptorem. Summo gubergren te mei, eam torquatos abhorreant ne.Pri meis illud nobis ut legere tempor eripuit te sed. Verterem phaedrum consectetuer et quo. Omniumdisputation graecis iracundia nec. Assueverit consequuntur mei, eos cu mutat percipitur.No quandoiudicabit usu, est in melius dolorum scriptorem. Summo gubergren te mei, eam torquatos abhorreant ne.Pri meis illud nobis ut legere tempor eripuit te sed. Verterem phaedrum consectetuer et quo. Omniumdisputation</p>
 							-->
+
 						</div>	
 
 						<!--
@@ -441,6 +450,16 @@
 			</div>
 		</section>
 		<!-- END BOTTOM FOOTER -->
+
+		<!--LIGHTBOX IMAGES-->
+		<div class="lightbox-target" id="floorplanWhite">
+			<img src="images/floorplan_11x8.png" />
+			<a class="lightbox-close" href="#"></a>
+		</div>
+		<div class="lightbox-target" id="floorplanBlack">
+			<img src="images/LocusLabsSchematic.jpg" />
+			<a class="lightbox-close" href="#"></a>
+		</div>
 
         <!-- ALL JAVASCRIPT -->         
         <script src="js/jquery.js"></script>
